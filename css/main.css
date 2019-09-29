@@ -1689,7 +1689,7 @@ pre .javascript .function {
 .sidebar-inner {
   position: relative;
   padding: 20px 10px;
-  color: #999;
+  color: $black;
   text-align: center;
 }
 .site-overview-wrap {
@@ -1825,7 +1825,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #213be0;
+  background: #3eff13;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2664,7 +2664,7 @@ embed {
   display: inline-block;
 }
 body {
-  background: url("https://wx4.sinaimg.cn/large/006sH7byly1g75aig642sj31400p0n08.jpg");
+  background: url("https://wx2.sinaimg.cn/large/006sH7byly1g7gsv3edu5j31hc0u0hdw.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
@@ -2673,7 +2673,11 @@ body {
   opacity: 0.8;
 }
 .main-inner {
-  opacity: 0.8;
+  margin-top: 60px;
+  padding: 60px 60px 60px 60px;
+  background: #fff;
+  opacity: 0.55;
+  min-height: 500px;
 }
 .post {
   margin-top: 0px;
